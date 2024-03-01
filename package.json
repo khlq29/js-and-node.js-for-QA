@@ -1,0 +1,21 @@
+{
+  "name": "js-essential-for-automation",
+  "version": "1.0.0",
+  "description": "learning js and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "node.js"
+  ],
+  "author": "khaliq",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@types/jest": "^29.5.12",
+    "babel-cli": "^6.26.0"
+  }
+}
