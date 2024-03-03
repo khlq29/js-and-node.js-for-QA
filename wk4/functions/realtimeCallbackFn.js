@@ -19,4 +19,9 @@ fetchUrl("https://api.github.com/users/github", (err, meta, body)=>{
     console.log(body.toString());
 })
 
-
+function getAPIRes(){
+    fetchUrl("https://api.github.com/users/github", (err, meta, body)=>{
+        console.log(body.toString());
+    })
+}
+getAPIRes()

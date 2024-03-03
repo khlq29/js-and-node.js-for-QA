@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.24.0",
     "@types/jest": "^29.5.12",
     "babel-cli": "^6.26.0",
-    "fetch": "^1.1.0"
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.7.0"
   }
 }
