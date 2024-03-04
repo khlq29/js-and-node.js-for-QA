@@ -18,8 +18,8 @@
 console.log(x); // ReferenceError: x is not defined
 
 // Two
-let a = 10
-let a = 20
+// let a = 10
+// let a = 20
 console.log(a); // SyntaxError: Identifier 'a' has already been declared
 
 // Three
