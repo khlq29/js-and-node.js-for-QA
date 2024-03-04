@@ -33,7 +33,10 @@ if(!resultExists){
     fs.mkdirSync(`${process.cwd()}/screenshots`)
 }
 
+
+
 // Read sub-dir /files from a folder
 let resArr = fs.readdirSync(`${process.cwd()}/data`)
 console.log(resArr);
 
+fs.rmdirSync(`${process.cwd()}/screenshots`)

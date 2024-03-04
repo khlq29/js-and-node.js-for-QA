@@ -1,0 +1,28 @@
+true
+[
+  'testID',         'status',
+  'PASS/FAIL Flag', 'totalTest',
+  'totalPass',      'isInScope',
+  'passrate',       'runDt',
+  'runner',         'macID',
+  'test_config',    'scope',
+  'previousRun'
+]
+[
+  12345,
+  'PASS',
+  'PASS',
+  100,
+  80,
+  true,
+  [Function: passrate],
+  2024-03-04T09:25:18.442Z,
+  'local',
+  'Unknown',
+  { env: 'test', url: 'https://test.com' },
+  [ 'smoke', 'reg', 'e2e' ],
+  { status: 'FAIL', runID: 6789 }
+]
+reg
+FAIL
+FAIL
