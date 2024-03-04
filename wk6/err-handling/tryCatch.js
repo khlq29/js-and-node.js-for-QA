@@ -8,7 +8,7 @@ const helper = require("./throwDemo");
  */
  let filepath = ''
 try {
-  filepath = `${process.cwd()}/data/sampleData.json`;
+  filepath = `${process.cwd()}/dat/sampleData.json`;
   let data = helper.readFile(filepath);
   let dataObj = JSON.parse(data);
   console.log(dataObj);
@@ -20,9 +20,9 @@ console.log(`I can handle the error...`);
  * Log the error msg move
  * Custom error
  */
-// console.log(typeof error);
-// console.log(error.name);
-// console.log(error.message);
+console.log(typeof error);
+console.log(error.name);
+console.log(error.message);
 let customErr = `Error reading the file: ${filepath}. ${error}`
 throw customErr
 
