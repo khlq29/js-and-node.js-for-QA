@@ -22,9 +22,9 @@ function readFile(filepath){
 
 
 //Calling
-// let filepath = `${process.cwd()}/dat/sampleData.json`;
-// let data = readFile(filepath)
-// console.log(data);
+let filepath = `${process.cwd()}/dat/sampleData.json`;
+let data = readFile(filepath)
+console.log(data);
 
 module.exports = {
     readFile
